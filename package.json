@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "basic-calculator": "index.js"
+    "mbc-piaic-001": "node index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,8 @@
   "author": "Asif Nawaz",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.16"
+    "inquirer": "^9.2.16",
+    "mbc-piaic-001": "^1.0.0"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
