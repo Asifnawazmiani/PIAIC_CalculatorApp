@@ -6,12 +6,14 @@ const answer = await inquirer.prompt([
     {
         type: 'number',
         name: 'num1',
-        message: 'Enter the first number: '
+        message: 'Enter the first number: ',
+        validate: (input: string) => !isNaN(parseFloat(input)),
     },
     {
         type: 'number',
         name: 'num2',
-        message: 'Enter the second number: '
+        message: 'Enter the second number: ',
+        validate: (input: string) => !isNaN(parseFloat(input)),
     },
     {
         type: 'list',
