@@ -1,15 +1,17 @@
 {
-  "name": "@codeinpiece/basic-calculator",
+  "name": "mbc-piaic-001",
   "version": "1.0.0",
-  "description": "",
+  "description": "my calculator app",
   "main": "index.js",
   "type": "module",
-  "bin": "./index.js",
+  "bin": {
+    "basic-calculator": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Asif Nawaz",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.16"
@@ -17,5 +19,9 @@
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
     "@types/node": "^20.11.30"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PIAIC_CalculatorApp"
   }
 }
