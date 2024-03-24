@@ -1,12 +1,10 @@
 {
   "name": "mbc-piaic-001",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "my calculator app",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "module",
-  "bin": {
-    "mbc-piaic-001": "node index.js"
-  },
+  "bin": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,8 +12,7 @@
   "author": "Asif Nawaz",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.16",
-    "mbc-piaic-001": "^1.0.0"
+    "inquirer": "^9.2.16"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7",

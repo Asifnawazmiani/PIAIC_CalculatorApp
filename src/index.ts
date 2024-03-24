@@ -46,3 +46,7 @@ switch(answer.operator){
         console.log(" The answer for division is: " + result);
         break;
 }
+
+function validate(input:string){
+    return !isNaN(parseFloat(input));
+}
